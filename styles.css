@@ -1,4 +1,4 @@
-/* Basic Styles */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -32,7 +32,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Hero Section */
 .hero {
     text-align: center;
     padding: 50px 20px;
@@ -61,6 +60,19 @@ nav a:hover {
 
 .hero button:hover {
     background-color: #0056b3;
+}
+
+/* Image Section */
+.image-section {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.responsive-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
 }
 
 /* Features Section */
@@ -94,7 +106,7 @@ footer {
     color: #fff;
 }
 
-/* Mobile Specific Styles */
+/* Mobile Styles */
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -139,6 +151,10 @@ footer {
 
     .feature {
         margin-bottom: 30px;
+        max-width: 90%;
+    }
+
+    .responsive-image {
         max-width: 90%;
     }
 }
