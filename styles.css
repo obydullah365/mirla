@@ -65,7 +65,7 @@ nav a:hover {
 /* Image Section */
 .image-section {
     text-align: center;
-    padding: 20px 0;
+    margin-bottom: 20px; /* Add space between image and button */
 }
 
 .responsive-image {
